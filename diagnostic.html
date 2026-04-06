@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Business Growth Diagnostic | Rochester MN | Blankets Consulting Group</title>
+  <meta name="description" content="Book a free 30-minute Business Growth Diagnostic with BCG. We'll analyze your business, give you actionable strategies, and show you how to grow — no obligation. Rochester, MN." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Free Business Growth Diagnostic | Blankets Consulting Group" />
+  <meta property="og:description" content="Book a free 30-minute Business Growth Diagnostic with BCG. We'll analyze your business, give you actionable strategies, and show you how to grow — no obligation. Rochester, MN." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://blanketsconsulting.com/diagnostic" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD Schema: Service -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Free Business Growth Diagnostic",
+    "description": "A free 30-minute diagnostic session with Blankets Consulting Group to analyze your business and deliver actionable growth strategies.",
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "Blankets Consulting Group",
+      "telephone": "+1-507-254-0116",
+      "email": "hello@blanketsconsulting.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rochester",
+        "addressRegion": "MN",
+        "postalCode": "55901",
+        "addressCountry": "US"
+      }
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD Schema: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Blankets Consulting Group",
+    "description": "Fractional CxO services, business strategy consulting, and digital marketing for SMEs in Rochester, MN.",
+    "url": "https://blanketsconsulting.com",
+    "telephone": "+1-507-254-0116",
+    "email": "hello@blanketsconsulting.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rochester",
+      "addressRegion": "MN",
+      "postalCode": "55901",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+
+  <style>
+    /* Skip Navigation (Accessibility) */
+    .skip-nav:focus { top: 0 !important; outline: 3px solid #4DAFA8; outline-offset: 2px; }
+
+    /* =============================================
+       RESET & BASE
+    ============================================= */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; height: 100%; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: #333333;
+      background: #fff;
+      line-height: 1.6;
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+
+    /* =============================================
+       TOKENS
+    ============================================= */
+    :root {
+      --navy:       #1B2A4A;
+      --teal:       #4DAFA8;
+      --teal-hover: #3D9B94;
+      --body:       #333333;
+      --light-bg:   #F5F7FA;
+      --muted:      #666666;
+      --border:     #EEEEEE;
+    }
+
+    /* =============================================
+       MAIN SPLIT LAYOUT
+    ============================================= */
+    .diagnostic-wrap {
+      display: flex;
+      flex: 1;
+      min-height: calc(100vh - 48px); /* minus footer height */
+    }
+
+    /* =============================================
+       LEFT PANEL
+    ============================================= */
+    .left-panel {
+      width: 55%;
+      background: #ffffff;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+    }
+
+    /* Logo */
+    .diag-logo {
+      display: inline-block;
+      margin-bottom: 48px;
+    }
+    .diag-logo img {
+      width: 120px;
+      height: auto;
+    }
+    .diag-logo-wordmark {
+      display: flex;
+      flex-direction: column;
+      line-height: 1;
+      width: 120px;
+    }
+    .logo-bcg {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      color: var(--navy);
+      letter-spacing: -0.5px;
+    }
+    .logo-sub {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 7.5px;
+      font-weight: 600;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-top: 2px;
+    }
+
+    /* Eyebrow */
+    .eyebrow {
+      display: inline-block;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 20px;
+    }
+
+    /* H1 */
+    .diag-h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 40px;
+      color: var(--navy);
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+
+    /* Body paragraph */
+    .diag-body {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.7;
+      margin-bottom: 36px;
+    }
+
+    /* Section H3 */
+    .diag-h3 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 20px;
+    }
+
+    /* Checklist */
+    .checklist {
+      list-style: none;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 16px;
+      color: #333;
+      line-height: 1.55;
+    }
+    .check-icon {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      background: var(--teal);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1px;
+    }
+    .check-icon svg {
+      width: 13px;
+      height: 13px;
+      stroke: #fff;
+      stroke-width: 2.5;
+      fill: none;
+    }
+
+    /* Spacer */
+    .spacer-40 { height: 40px; }
+
+    /* Who Is This For body */
+    .who-body {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.7;
+      margin-bottom: 40px;
+    }
+
+    /* =============================================
+       TRUST STRIP (bottom of left panel)
+    ============================================= */
+    .trust-strip {
+      margin-top: auto;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .trust-item {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+      flex: 1;
+      min-width: 160px;
+    }
+    .trust-item strong {
+      display: block;
+      font-weight: 600;
+      color: #444;
+      margin-bottom: 2px;
+    }
+    .stars {
+      color: #F5A623;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    /* =============================================
+       RIGHT PANEL
+    ============================================= */
+    .right-panel {
+      width: 45%;
+      background: var(--light-bg);
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    .right-inner {
+      width: 100%;
+      max-width: 480px;
+    }
+
+    .booking-h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 28px;
+      color: var(--navy);
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    /* =============================================
+       CALENDLY PLACEHOLDER WIDGET
+    ============================================= */
+    .calendly-placeholder {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      overflow: hidden;
+      border: 1px solid #e8ecf0;
+      margin-bottom: 20px;
+    }
+
+    .cal-header {
+      background: var(--navy);
+      padding: 18px 24px;
+      text-align: center;
+    }
+    .cal-header-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+    .cal-header-sub {
+      font-family: 'DM Serif Display', serif;
+      font-size: 20px;
+      color: #fff;
+    }
+    .cal-duration {
+      display: inline-block;
+      background: rgba(77,175,168,0.2);
+      color: var(--teal);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-top: 8px;
+    }
+
+    .cal-body {
+      padding: 24px;
+    }
+
+    .cal-section-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+
+    /* Month nav */
+    .cal-month-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .cal-month-name {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+    .cal-nav-btn {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--navy);
+      font-size: 14px;
+      transition: background 0.15s;
+    }
+    .cal-nav-btn:hover { background: var(--light-bg); }
+
+    /* Day grid */
+    .cal-day-headers {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 4px;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+    .cal-day-header {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    .cal-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 4px;
+      margin-bottom: 24px;
+    }
+    .cal-date-btn {
+      aspect-ratio: 1;
+      border-radius: 50%;
+      border: none;
+      background: transparent;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--navy);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s, color 0.15s;
+    }
+    .cal-date-btn:hover:not(.empty):not(.disabled):not(.selected) {
+      background: #e8f5f4;
+      color: var(--teal);
+    }
+    .cal-date-btn.available {
+      font-weight: 600;
+    }
+    .cal-date-btn.selected {
+      background: var(--teal);
+      color: #fff;
+    }
+    .cal-date-btn.disabled {
+      color: #ccc;
+      cursor: default;
+    }
+    .cal-date-btn.empty {
+      cursor: default;
+    }
+    .cal-date-btn.today {
+      border: 2px solid var(--teal);
+    }
+
+    /* Time slots */
+    .cal-times {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    .time-slot {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 11px 16px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+      background: #fff;
+    }
+    .time-slot:hover {
+      border-color: var(--teal);
+      background: #f0faf9;
+    }
+    .time-slot.selected {
+      border-color: var(--teal);
+      background: var(--teal);
+    }
+    .time-slot.selected .time-label,
+    .time-slot.selected .time-zone {
+      color: #fff;
+    }
+    .time-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+    .time-zone {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .cal-cta-btn {
+      display: block;
+      width: 100%;
+      background: var(--teal);
+      color: #fff;
+      padding: 15px 24px;
+      border-radius: 8px;
+      border: none;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+      letter-spacing: 0.3px;
+    }
+    .cal-cta-btn:hover { background: var(--teal-hover); transform: translateY(-1px); }
+
+    /* Developer note */
+    .dev-note {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #FFF8E6;
+      border: 1px dashed #F5A623;
+      border-radius: 6px;
+      padding: 10px 14px;
+      margin-bottom: 16px;
+    }
+    .dev-note-icon {
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+    .dev-note-text {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12px;
+      color: #7A5C00;
+      font-weight: 500;
+    }
+
+    /* Phone line below widget */
+    .booking-phone {
+      text-align: center;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .booking-phone a {
+      color: var(--teal);
+      font-weight: 600;
+    }
+    .booking-phone a:hover { text-decoration: underline; }
+
+    /* =============================================
+       MINIMAL FOOTER
+    ============================================= */
+    .diag-footer {
+      background: #fff;
+      border-top: 1px solid var(--border);
+      padding: 14px 24px;
+      text-align: center;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12px;
+      color: #999;
+      flex-shrink: 0;
+    }
+    .diag-footer a {
+      color: #999;
+    }
+    .diag-footer a:hover { color: var(--teal); }
+
+    /* =============================================
+       MOBILE STICKY BOOK NOW BTN
+    ============================================= */
+    .mobile-sticky-cta {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 500;
+      padding: 12px 20px;
+      background: rgba(255,255,255,0.97);
+      border-top: 1px solid var(--border);
+      backdrop-filter: blur(8px);
+    }
+    .mobile-sticky-cta a {
+      display: block;
+      background: var(--teal);
+      color: #fff;
+      text-align: center;
+      padding: 16px 24px;
+      border-radius: 8px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      transition: background 0.2s;
+    }
+    .mobile-sticky-cta a:hover { background: var(--teal-hover); }
+
+    /* =============================================
+       RESPONSIVE — MOBILE (<768px)
+    ============================================= */
+    @media (max-width: 767px) {
+
+      .diagnostic-wrap {
+        flex-direction: column;
+        min-height: auto;
+      }
+
+      .left-panel {
+        width: 100%;
+        padding: 36px 24px 40px;
+      }
+
+      .right-panel {
+        width: 100%;
+        position: static;
+        height: auto;
+        padding: 36px 24px 100px; /* bottom pad for sticky btn */
+      }
+
+      .diag-h1 {
+        font-size: 30px;
+      }
+
+      .diag-body {
+        font-size: 16px;
+      }
+
+      .trust-strip {
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .trust-item {
+        min-width: 0;
+      }
+
+      .mobile-sticky-cta {
+        display: block;
+      }
+    }
+
+    /* Tablet adjustments */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .left-panel { padding: 48px 40px; }
+      .diag-h1 { font-size: 34px; }
+    }
+  </style>
+</head>
+
+<body>
+<a class="skip-nav" href="#main-content" style="position:absolute;top:-100%;left:16px;z-index:9999;background:#1B2A4A;color:#fff;padding:12px 20px;border-radius:0 0 6px 6px;font-family:'Plus Jakarta Sans',sans-serif;font-size:15px;font-weight:600;text-decoration:none;">Skip to main content</a>
+
+<!-- ===================================================
+     MAIN SPLIT LAYOUT
+=================================================== -->
+<main id="main-content"><div class="diagnostic-wrap">
+
+  <!-- ─────────────────────────────────────────────
+       LEFT PANEL: All text content
+  ────────────────────────────────────────────── -->
+  <section class="left-panel">
+
+    <!-- Logo — links back to homepage, no nav menu -->
+    <a href="/" class="diag-logo" aria-label="Back to Blankets Consulting Group homepage">
+      <div class="diag-logo-wordmark">
+        <span class="logo-bcg">BCG</span>
+        <span class="logo-sub">Blankets Consulting</span>
+      </div>
+    </a>
+
+    <!-- Eyebrow -->
+    <span class="eyebrow">FREE &nbsp;•&nbsp; 30 MINUTES &nbsp;•&nbsp; NO OBLIGATION</span>
+
+    <!-- H1 -->
+    <h1 class="diag-h1">Your Free Business Growth Diagnostic</h1>
+
+    <!-- Body -->
+    <p class="diag-body">
+      In 30 minutes, we'll give you more actionable insight than most consultants deliver in a month. No pitch. No pressure. Just a real conversation about your business and where it can go.
+    </p>
+
+    <!-- What You'll Get -->
+    <h2 class="diag-h3">Here's What You'll Get:</h2>
+    <ul class="checklist">
+      <li>
+        <span class="check-icon">
+          <svg viewBox="0 0 12 10"><polyline points="1,5 4.5,8.5 11,1"/></svg>
+        </span>
+        A clear assessment of your current marketing and business strategy
+      </li>
+      <li>
+        <span class="check-icon">
+          <svg viewBox="0 0 12 10"><polyline points="1,5 4.5,8.5 11,1"/></svg>
+        </span>
+        2–3 specific, actionable recommendations you can implement immediately
+      </li>
+      <li>
+        <span class="check-icon">
+          <svg viewBox="0 0 12 10"><polyline points="1,5 4.5,8.5 11,1"/></svg>
+        </span>
+        An honest evaluation of where BCG can (and can't) help
+      </li>
+      <li>
+        <span class="check-icon">
+          <svg viewBox="0 0 12 10"><polyline points="1,5 4.5,8.5 11,1"/></svg>
+        </span>
+        Zero obligation — the insights are yours whether or not we work together
+      </li>
+    </ul>
+
+    <div class="spacer-40"></div>
+
+    <!-- Who Is This For -->
+    <h2 class="diag-h3">Who Is This For?</h2>
+    <p class="who-body">
+      This diagnostic is designed for business owners and leaders in Rochester, MN and SE Minnesota who want to grow their revenue, improve their marketing, or get strategic guidance for their next big move. If your business generates $500K+ in annual revenue and you're ready to invest in growth, this session is for you.
+    </p>
+
+    <!-- Trust Elements -->
+    <div class="trust-strip">
+      <div class="trust-item">
+        <strong>Led by Jorge Mosquera, PMP</strong>
+        15+ years at Mayo Clinic, IBM, and EFY Finance
+      </div>
+      <div class="trust-item">
+        <span class="stars">★★★★★</span><br>
+        Rated 5/5 by Rochester business owners
+      </div>
+      <div class="trust-item">
+        <strong>100+ businesses served</strong>
+        Across 5 industries
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ─────────────────────────────────────────────
+       RIGHT PANEL: Booking widget
+  ────────────────────────────────────────────── -->
+  <aside class="right-panel" id="booking-widget">
+
+    <div class="right-inner">
+
+      <h2 class="booking-h2">Pick a Time That Works</h2>
+
+      <!-- Developer note -->
+      <div class="dev-note">
+        <span class="dev-note-icon">🔧</span>
+        <span class="dev-note-text">
+          <strong>Developer note:</strong> Replace this entire <code>.calendly-placeholder</code> block with the Calendly inline embed script.
+        </span>
+      </div>
+
+      <!-- Calendly Inline Embed Placeholder -->
+      <div class="calendly-placeholder">
+
+        <!-- Widget header -->
+        <div class="cal-header">
+          <div class="cal-header-title">Blankets Consulting Group</div>
+          <div class="cal-header-sub">Business Growth Diagnostic</div>
+          <div><span class="cal-duration">30 min · Free</span></div>
+        </div>
+
+        <!-- Widget body -->
+        <div class="cal-body">
+
+          <div class="cal-section-label">Select a Date &amp; Time</div>
+
+          <!-- Month navigation -->
+          <div class="cal-month-nav">
+            <button class="cal-nav-btn" aria-label="Previous month">&#8249;</button>
+            <span class="cal-month-name">April 2026</span>
+            <button class="cal-nav-btn" aria-label="Next month">&#8250;</button>
+          </div>
+
+          <!-- Day-of-week headers -->
+          <div class="cal-day-headers">
+            <div class="cal-day-header">Su</div>
+            <div class="cal-day-header">Mo</div>
+            <div class="cal-day-header">Tu</div>
+            <div class="cal-day-header">We</div>
+            <div class="cal-day-header">Th</div>
+            <div class="cal-day-header">Fr</div>
+            <div class="cal-day-header">Sa</div>
+          </div>
+
+          <!-- Date grid (April 2026: starts Tuesday) -->
+          <div class="cal-grid">
+            <!-- Row 1 -->
+            <button class="cal-date-btn empty" disabled></button>
+            <button class="cal-date-btn empty" disabled></button>
+            <button class="cal-date-btn disabled" disabled>1</button>
+            <button class="cal-date-btn disabled" disabled>2</button>
+            <button class="cal-date-btn disabled" disabled>3</button>
+            <button class="cal-date-btn disabled" disabled>4</button>
+            <button class="cal-date-btn disabled" disabled>5</button>
+            <!-- Row 2 -->
+            <button class="cal-date-btn disabled" disabled>6</button>
+            <button class="cal-date-btn today available" onclick="selectDate(this)">7</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">8</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">9</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">10</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">11</button>
+            <button class="cal-date-btn disabled" disabled>12</button>
+            <!-- Row 3 -->
+            <button class="cal-date-btn disabled" disabled>13</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">14</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">15</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">16</button>
+            <button class="cal-date-btn available selected" onclick="selectDate(this)">17</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">18</button>
+            <button class="cal-date-btn disabled" disabled>19</button>
+            <!-- Row 4 -->
+            <button class="cal-date-btn disabled" disabled>20</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">21</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">22</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">23</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">24</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">25</button>
+            <button class="cal-date-btn disabled" disabled>26</button>
+            <!-- Row 5 -->
+            <button class="cal-date-btn disabled" disabled>27</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">28</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">29</button>
+            <button class="cal-date-btn available" onclick="selectDate(this)">30</button>
+            <button class="cal-date-btn empty" disabled></button>
+            <button class="cal-date-btn empty" disabled></button>
+            <button class="cal-date-btn empty" disabled></button>
+          </div>
+
+          <!-- Time slots -->
+          <div class="cal-section-label">Available Times — CDT</div>
+          <div class="cal-times">
+            <div class="time-slot" onclick="selectTime(this)">
+              <span class="time-label">9:00 AM</span>
+              <span class="time-zone">Central Daylight Time</span>
+            </div>
+            <div class="time-slot selected" onclick="selectTime(this)">
+              <span class="time-label">10:30 AM</span>
+              <span class="time-zone">Central Daylight Time</span>
+            </div>
+            <div class="time-slot" onclick="selectTime(this)">
+              <span class="time-label">1:00 PM</span>
+              <span class="time-zone">Central Daylight Time</span>
+            </div>
+            <div class="time-slot" onclick="selectTime(this)">
+              <span class="time-label">3:30 PM</span>
+              <span class="time-zone">Central Daylight Time</span>
+            </div>
+          </div>
+
+          <!-- CTA button -->
+          <button class="cal-cta-btn" onclick="this.textContent='Booking...'">
+            Confirm &amp; Book My Diagnostic
+          </button>
+
+        </div>
+      </div>
+      <!-- /calendly-placeholder -->
+
+      <!-- Phone line -->
+      <p class="booking-phone">
+        Questions? Call us directly: <a href="tel:+15072540116">(507) 254-0116</a>
+      </p>
+
+    </div>
+  </aside>
+
+</div><!-- /diagnostic-wrap --></main>
+
+<!-- ===================================================
+     MINIMAL FOOTER
+=================================================== -->
+<footer class="diag-footer">
+  &copy; 2026 Blankets Consulting Group &nbsp;|&nbsp; Rochester, MN &nbsp;|&nbsp;
+  <a href="tel:+15072540116">(507) 254-0116</a> &nbsp;|&nbsp;
+  <a href="mailto:hello@blanketsconsulting.com">hello@blanketsconsulting.com</a> &nbsp;|&nbsp;
+  <a href="/services">Our Services</a> &nbsp;|&nbsp;
+  <a href="/about">About BCG</a> &nbsp;|&nbsp;
+  <a href="/contact">Contact</a>
+</footer>
+
+<!-- ===================================================
+     MOBILE STICKY CTA
+=================================================== -->
+<div class="mobile-sticky-cta" role="region" aria-label="Book your free diagnostic">
+  <a href="#booking-widget" aria-label="Scroll to booking widget and select a time">Book My Free Diagnostic →</a>
+</div>
+
+<!-- ===================================================
+     INTERACTION SCRIPTS (placeholder demo behavior)
+=================================================== -->
+<script>
+  function selectDate(btn) {
+    document.querySelectorAll('.cal-date-btn').forEach(b => b.classList.remove('selected'));
+    btn.classList.add('selected');
+  }
+  function selectTime(el) {
+    document.querySelectorAll('.time-slot').forEach(s => s.classList.remove('selected'));
+    el.classList.add('selected');
+  }
+</script>
+
+</body>
+</html>
