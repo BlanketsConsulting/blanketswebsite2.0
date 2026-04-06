@@ -699,35 +699,13 @@
       align-items: center;
     }
     .jorge-photo {
-      background: linear-gradient(145deg, #e8eef5 0%, #d6e3ef 100%);
       border-radius: 12px;
+      width: 100%;
       aspect-ratio: 3/4;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
       box-shadow: 0 8px 40px rgba(0,0,0,0.1);
-      gap: 16px;
-    }
-    .jorge-photo-icon {
-      width: 100px;
-      height: 100px;
-      background: rgba(27,42,74,0.08);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .jorge-photo-icon svg {
-      width: 52px;
-      height: 52px;
-      stroke: rgba(27,42,74,0.3);
-    }
-    .jorge-photo span {
-      font-size: 13px;
-      color: rgba(27,42,74,0.4);
-      letter-spacing: 1px;
-      text-transform: uppercase;
     }
     .jorge-text h2 { margin-bottom: 24px; }
     .jorge-text p {
@@ -1266,14 +1244,12 @@
   <div class="container">
     <div class="jorge-inner">
       <!-- Left: Photo Placeholder -->
-      <div class="jorge-photo" role="img" aria-label="Jorge Mosquera photo placeholder">
-        <div class="jorge-photo-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-          </svg>
-        </div>
-        <span>Photo Coming Soon</span>
-      </div>
+      <img
+        class="jorge-photo"
+        src="JorgeCasual1.jpg"
+        alt="Jorge Mosquera, Founder of Blankets Consulting Group"
+        loading="lazy"
+      />
 
       <!-- Right: Text -->
       <div class="jorge-text reveal">
